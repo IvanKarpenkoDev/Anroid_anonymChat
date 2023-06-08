@@ -39,7 +39,7 @@ public class RecyclerAdapter  extends RecyclerView.Adapter<RecyclerAdapter.ViewH
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position){
         String groups = groupList.get(position);
-        if(!groups.contains("photos/")){
+        if(!groups.contains("images/")){
             holder.groupNameTV.setText(groups);
         }
         else {
@@ -48,7 +48,7 @@ public class RecyclerAdapter  extends RecyclerView.Adapter<RecyclerAdapter.ViewH
             storage.child(groups).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                 @Override
                 public void onSuccess(Uri uri) {
-                    Log.e("Ne poluchilos', ne fortanulo", uri.toString());
+                    Log.e("Ошибка", uri.toString());
                     Picasso.get().load(uri.toString()).into(holder.pic);
                 }
             });

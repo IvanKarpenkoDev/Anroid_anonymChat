@@ -28,6 +28,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
@@ -62,6 +63,7 @@ public class Chat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
         fab =findViewById(R.id.fab);
+        storage = FirebaseStorage.getInstance().getReference();
 
         editText = findViewById(R.id.input);
         database = FirebaseDatabase.getInstance().getReference("Rooms");
@@ -211,18 +213,20 @@ public class Chat extends AppCompatActivity {
                 if(i==1){
                     database.child("room1").child("messages")
                             .push()
-                            .setValue("photos/"+fileName);
+                            .setValue("images/"+fileName);
 
                     getMessages();
                 }else if(i==2){
                     database.child("room2").child("messages")
                             .push()
-                            .setValue("photos/"+fileName);
+                            .setValue("images/"+fileName);
 
                     getMessages();
                 }
             }
         });
+
+
     }
 
     private String getFileExtencion(Uri uri) {
