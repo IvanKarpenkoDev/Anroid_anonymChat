@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "328598443540",
+    "firebase_url": "https://anonymuschat-5625f-default-rtdb.firebaseio.com",
+    "project_id": "anonymuschat-5625f",
+    "storage_bucket": "anonymuschat-5625f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328598443540:android:66c2da29110e9bfc4d7901",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-4LxasKycmrEoPMRGunQa998ZoX3kys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328598443540:android:b5068f4310b4cd2f4d7901",
+        "android_client_info": {
+          "package_name": "com.example.anonchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-4LxasKycmrEoPMRGunQa998ZoX3kys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328598443540:android:6889a84d939d208c4d7901",
+        "android_client_info": {
+          "package_name": "com.example.anonymuschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-4LxasKycmrEoPMRGunQa998ZoX3kys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328598443540:android:e3fc6ab8f94e3f094d7901",
+        "android_client_info": {
+          "package_name": "com.example.anonymuschat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-4LxasKycmrEoPMRGunQa998ZoX3kys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328598443540-hqhth814ees935nd5h25v4hf7md9v3oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
