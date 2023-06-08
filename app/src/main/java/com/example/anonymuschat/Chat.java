@@ -63,7 +63,8 @@ public class Chat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
         fab =findViewById(R.id.fab);
-        storage = FirebaseStorage.getInstance().getReference();
+        storage = FirebaseStorage.getInstance().getReference("images/");
+
 
         editText = findViewById(R.id.input);
         database = FirebaseDatabase.getInstance().getReference("Rooms");
